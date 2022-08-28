@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    overflow: hidden;
+    background: #ffd1c3;
+}
+
+.toggle {
+    margin-left: 220px;
+}
+
+.toggle::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100px;
+    height: 1px;
+    top: 70px;
+    background: #fff;
+}
+
+aside {
+    width: 300px;
+    height: 100vh;
+    background: #3d251e;
+    box-shadow: 0 0 70px #3d251e;
+}
+
+aside ul {
+    margin-left: 15px;
+    padding-top: 40px;
+}
+
+aside ul a {
+    font-size: 45px;
+    color: #fff;
+}
+
+aside ul a span {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 50px;
+}
+
+aside ul li a {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+aside ul li {
+    padding: 20px 0;
+    width: 250px;
+    font-size: 35px;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+header {
+    position: absolute;
+    left: 300px;
+    top: 0;
+}
+
+/* container */
+.container {
+    box-shadow: 0 0 50px 10px #ffb7a1;
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: 120%;
+    margin-top: 50%;
+    width: 500px;
+}
+
+.container h1 {
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.container input {
+    background: transparent;
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 40px 10px 20px;
+    font-weight: 500;
+}
+
+.container button {
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid #000;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+    margin-left: 255px;
+}
+
+.container select {
+    background: transparent;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-weight: 500;
+    padding-right: 10px;
+    padding: 9px;
+}
+
+.container select option {
+    background: #000;
+    color: #fff;
+}
+
+
+:focus {
+    outline: none;
+}
